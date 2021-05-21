@@ -34,7 +34,7 @@ def main():
             current_letter = input("Ingresa una letra: ")
             for i in range(len(NUMBERS)):
                 if current_letter == NUMBERS[i]:
-                    raise ValueError("No ingreses números subnormal") 
+                    raise ValueError("No ingreses números, solamente letras, por favor") 
             
             letter_indexes = []
             for idx in range(len(current_word)):
